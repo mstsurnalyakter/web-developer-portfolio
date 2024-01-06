@@ -24,11 +24,15 @@ body {
 
 /* Common style ends here */
 
+
+
 /* Nav style starts here*/
+
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0px 200px;
 }
 
 .nav-title{
@@ -52,3 +56,18 @@ nav a{
 }
 
 /* Nav style ends here*/
+
+/* header style starts here */
+.header{
+    background-color: #fff8f3;
+}
+.banner{
+    padding:30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-picture{
+    width: 500px;
+}
+/* header style ends here */
